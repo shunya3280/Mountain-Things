@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>お問い合わせ - Mountain Things</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="./js/script.js" defer></script>
+</head>
+<body class="contact-page">
+  <header class="site-header">
+    <h1>Mountain Things</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="shop.html">ショップ</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+      <button id="modeToggle">ダークモード</button>
+    </nav>
+  </header>
+
+  <main>
+    <h2>お問い合わせ</h2>
+    <p>ご不明点等あれば、お気軽にお問合せください</p>
+    <form id="contactForm">
+      <label>お名前：<input type="text" name="name" required /></label><br />
+      <label>メール：<input type="email" name="email" required /></label><br />
+      <label>メッセージ：<textarea name="message" required></textarea></label><br />
+      <button type="submit">送信</button>
+    </form>
+    <div id="formResponse"></div>
+  </main>
+
+  <footer class="site-footer">
+    &copy; 2025 Mountain Things
+  </footer>
+</body>
+</html>
