@@ -25,7 +25,7 @@ nav ul {
   padding: 0;
 }
 .hero {
-  background-image: url("../img/mountain.jpg"); /* ← あなたの画像に変更 */
+  background-image: url("../img/mountain.jpg");
   background-size: cover;
   background-position: center;
   height: 80vh;
