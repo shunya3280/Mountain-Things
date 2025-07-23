@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // 商品データ（配列）
   const shopItems = [
     { name: "登山リュック", price: 12000, image: "./img/bag.jpg" },
     { name: "折り畳み万能ナイフ", price: 8000, image: "./img/knives.jpg" },
@@ -28,7 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ダークモード切替
   const modeToggle = document.getElementById("modeToggle");
   if (modeToggle) {
     modeToggle.addEventListener("click", () => {
@@ -36,7 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // お問い合わせフォーム処理
   const form = document.getElementById("contactForm");
   if (form) {
     form.addEventListener("submit", (e) => {
