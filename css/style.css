@@ -118,7 +118,7 @@ a {
   background: #111;
 }
 .dark-mode main1, .dark-mode main2 {
-  background-color: rgba(30, 30, 30, 0.85); /* 暗めの半透明グレー */
+  background-color: rgba(30, 30, 30, 0.85);
   color: #eee;
 }
 .shop-item {
